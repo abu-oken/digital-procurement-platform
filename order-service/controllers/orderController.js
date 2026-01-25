@@ -43,3 +43,5 @@ exports.getAllOrders = async (req, res) => {
     res.status(500).json({ message: "Error fetching orders" });
   }
 };
+
+console.log("Order successfully processed at", new Date());
