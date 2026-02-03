@@ -8,6 +8,5 @@ image:
 service:
   type: NodePort
   port: 4001
-  nodePort: 30007
 
 resources: {}
