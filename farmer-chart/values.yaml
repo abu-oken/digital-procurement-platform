@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: farmer-service
+  tag: latest
+  pullPolicy: Never
+
+service:
+  type: NodePort
+  port: 4001
+  nodePort: 30007
+
+resources: {}
